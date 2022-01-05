@@ -1119,3 +1119,425 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.05-17.36.07:431][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.01.05-17.36.07:434][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
 [2022.01.05-17.36.07:473][170]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.01.05-17.36.57:071][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.01.05-17.36.57:106][334]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/FirstPersonExampleMap8837120945147E37CCB693A2B38A7853.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.01.05-17.36.57:122][334]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2022.01.05-17.36.57:122][334]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.05-17.37.01:566][594]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.01.05-17.37.01:589][594]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.01.05-17.37.05:771][845]LogContentBrowser: Attempting asset rename: NewMaterial -> Gold
+[2022.01.05-17.37.05:774][845]LogContentBrowser: End creating deferred item NewMaterial
+[2022.01.05-17.37.07:063][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gold" FILE="../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset" SILENT=true
+[2022.01.05-17.37.07:067][921]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/Gold30C8CD5042FB790351B87DBA2BA009A3.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset'
+[2022.01.05-17.37.07:078][921]AssetCheck: New page: Asset Save: Gold
+[2022.01.05-17.37.07:078][921]LogContentValidation: Display: Validating Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.37.09:780][ 81]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.37.09:784][ 81]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: C5A548AEC236CE0BA3972C81F7AFA6C2CAE66348), compiling. 
+[2022.01.05-17.37.09:793][ 81]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.09:809][ 81]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.01.05-17.37.09:901][ 81]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.01.05-17.37.10:087][ 81]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: AB58F4831A66DC6FDE40917713BDC317A1882FD0), compiling. 
+[2022.01.05-17.37.10:091][ 81]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 6C856DEDF9E522E5FC3BB253108B3DB4DEF9C612), compiling. 
+[2022.01.05-17.37.10:103][ 81]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.10:151][ 82]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.11:304][122]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.05-17.37.11:304][122]LogShaderCompilers: Display: Total job queries 66, among them cache hits 5 (7.58%)
+[2022.01.05-17.37.11:304][122]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 31 distinct outputs (73.81%)
+[2022.01.05-17.37.11:304][122]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.04%
+[2022.01.05-17.37.11:304][122]LogShaderCompilers: Display: ================================================
+[2022.01.05-17.37.11:607][132]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.12:509][173]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.37.12:509][173]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.37.12:509][173]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.37.12:509][173]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.27:415][ 62]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: B9D6327AA14F00F34CEDC615D1F8465DAADD38F2), compiling. 
+[2022.01.05-17.37.27:418][ 62]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 26A1550D2535182D043541D7FC29EE4055D32121), compiling. 
+[2022.01.05-17.37.27:424][ 62]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.27:442][ 63]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.28:374][ 94]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.29:129][129]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.37.29:129][129]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.37.29:129][129]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2022.01.05-17.37.29:129][129]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.36:656][580]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 0A028271358CC0616C33681DB82AA265363470A3), compiling. 
+[2022.01.05-17.37.36:657][580]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.37.36:696][582]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.37.36:696][582]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.37.36:696][582]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.37.36:696][582]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.41:162][846]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 96F396428D79AD89AB8F66B446FA184A8BB7691F), compiling. 
+[2022.01.05-17.37.41:166][846]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 0277C3C06332EC2AD20245587561C584AEA096FF), compiling. 
+[2022.01.05-17.37.41:170][846]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.37.41:191][847]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.42:073][878]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.42:892][916]MaterialEditorStats: Base pass shader: 118 instructions
+[2022.01.05-17.37.42:892][916]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2022.01.05-17.37.42:892][916]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2022.01.05-17.37.42:892][916]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.42:917][917]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: EA97091B0818198A86B47DB3E5572D0FC8A68D16), compiling. 
+[2022.01.05-17.37.42:918][917]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.37.42:962][919]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.37.42:962][919]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.37.42:962][919]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.37.42:962][919]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.37.48:796][266]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 69C1BEF16A7CE9F14983A4DC55BAAA768406AE44), compiling. 
+[2022.01.05-17.37.48:802][266]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: BC29860049A36C265149A07C37ECCF09BB474838), compiling. 
+[2022.01.05-17.37.48:804][266]LogMaterial: Warning: [AssetLog] /Engine/Transient.Gold (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.01.05-17.37.48:804][266]LogMaterial: Display: 	Function MetallicShading: Missing function input 'BaseColor'
+[2022.01.05-17.37.48:807][266]MaterialEditorStats: Error: [SM5] Function MetallicShading: Missing function input 'BaseColor'
+[2022.01.05-17.37.48:835][267]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0E4F28CC32D7C8DD5C605F17AF5396D7E932D3F8), compiling. 
+[2022.01.05-17.37.48:851][268]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.48:851][268]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.37.48:863][269]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.37.52:077][452]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 478191BA117F16838082719AE9ECB82796275D31), compiling. 
+[2022.01.05-17.37.52:079][452]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.37.52:121][454]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.37.52:121][454]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.37.52:121][454]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.37.52:121][454]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.38.04:472][185]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 8EE18738E22452923E1563F728DDD35E70C3BD5F), compiling. 
+[2022.01.05-17.38.04:479][185]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 5FE0720E0849873195A68D7A76769F6CA1323FD5), compiling. 
+[2022.01.05-17.38.04:480][185]LogMaterial: Warning: [AssetLog] /Engine/Transient.Gold (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.01.05-17.38.04:480][185]LogMaterial: Display: 	Function Blend_ColorBurn: Missing function input 'Base'
+[2022.01.05-17.38.04:480][185]LogMaterial: Display: 	Function Blend_ColorBurn: Missing function input 'Blend'
+[2022.01.05-17.38.04:484][185]MaterialEditorStats: Error: [SM5] Function Blend_ColorBurn: Missing function input 'Base'
+[2022.01.05-17.38.04:484][185]MaterialEditorStats: Error: [SM5] Function Blend_ColorBurn: Missing function input 'Blend'
+[2022.01.05-17.38.04:512][186]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 395A1DCD014BE6ABF76A6184969FD7FA47E2CD0E), compiling. 
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.01.05-17.38.04:532][187]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.38.06:384][285]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 35C55B0265C923588D94565851C1D6E4F3E53FCA), compiling. 
+[2022.01.05-17.38.06:386][285]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.38.06:428][287]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.38.06:428][287]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.38.06:428][287]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.38.06:428][287]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.39.30:685][356]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 16B120E2108111FD7E7F61308DF440F626265061), compiling. 
+[2022.01.05-17.39.30:688][356]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 6FF00DE0F7E484B8AF606AAB9D05E2BDFEF22D19), compiling. 
+[2022.01.05-17.39.30:689][356]LogMaterial: Warning: [AssetLog] /Engine/Transient.Gold (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.01.05-17.39.30:689][356]LogMaterial: Display: 	(Node Desaturation) Missing Desaturation input
+[2022.01.05-17.39.30:693][356]MaterialEditorStats: Error: [SM5] (Node Desaturation) Missing Desaturation input
+[2022.01.05-17.39.55:685][667]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: D437B53A82CB4D603885BED3A94B2E9B022EDD6B), compiling. 
+[2022.01.05-17.39.55:686][667]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.39.55:725][669]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.39.55:725][669]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.39.55:725][669]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.39.55:725][669]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.40.08:935][457]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 15F86CFD3E9CD48ED805BA4373CAD6D023E98A8F), compiling. 
+[2022.01.05-17.40.08:939][457]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7BC6EFFD190F06A76043AB44D6F892AA4F1AAD3F), compiling. 
+[2022.01.05-17.40.08:942][457]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 8C57357524315A6EAD5B026C64B21C11345D8EE8), compiling. 
+[2022.01.05-17.40.08:944][457]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4CBAD51466D9641447ADE14BCD3F21EBD4E4247B), compiling. 
+[2022.01.05-17.40.08:948][457]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.40.08:990][459]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.08:990][459]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.40.08:990][459]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.40.08:990][459]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.08:991][459]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.05-17.40.08:991][459]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.05-17.40.08:991][459]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.40.08:991][459]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.40.45:184][221]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: A1473A7ABF17B18017B6E90FD8901CC3E940685C), compiling. 
+[2022.01.05-17.40.45:186][221]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9D683D0C7F2F7DCE8E54B85D49961E329E509994), compiling. 
+[2022.01.05-17.40.45:189][221]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5A4DED39D3D74EA8E8FF4745BD822F18C9B77C46), compiling. 
+[2022.01.05-17.40.45:191][221]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 4D2A9CD674D7C5F4786EEC9B05E6B2A9D41D7FA6), compiling. 
+[2022.01.05-17.40.45:192][221]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.05-17.40.45:199][221]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.40.45:214][222]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.45:214][222]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.40.45:214][222]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.40.45:214][222]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.40.45:233][223]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.45:254][224]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.01.05-17.40.45:254][224]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.01.05-17.40.45:254][224]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.46:356][262]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.05-17.40.46:356][262]LogShaderCompilers: Display: Total job queries 188, among them cache hits 81 (43.09%)
+[2022.01.05-17.40.46:356][262]LogShaderCompilers: Display: Tracking 86 distinct input hashes that result in 63 distinct outputs (73.26%)
+[2022.01.05-17.40.46:356][262]LogShaderCompilers: Display: RAM used: 0.33 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.08%
+[2022.01.05-17.40.46:356][262]LogShaderCompilers: Display: ================================================
+[2022.01.05-17.40.46:928][280]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.40.47:508][309]MaterialEditorStats: Base pass shader: 118 instructions
+[2022.01.05-17.40.47:508][309]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2022.01.05-17.40.47:508][309]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.40.47:508][309]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.40.58:174][945]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 088E6FD57E358E1338BCDF199130D3A3C5CFE029), compiling. 
+[2022.01.05-17.40.58:178][945]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 2CEF1C55ADC62EC1FE822D4C86998988CF5C6475), compiling. 
+[2022.01.05-17.40.58:183][945]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.40.58:204][946]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.40.58:205][946]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.40.59:112][977]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.40.59:997][ 17]MaterialEditorStats: Base pass shader: 118 instructions
+[2022.01.05-17.40.59:997][ 17]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2022.01.05-17.40.59:997][ 17]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.40.59:997][ 17]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.04:603][291]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 6755DB40C717EC15A32A29B5A1F3A05D5D79CFB5), compiling. 
+[2022.01.05-17.41.04:606][291]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 0700D09BBF54CC458CD19BA3EC040967C7E16A6B), compiling. 
+[2022.01.05-17.41.04:608][291]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.41.04:617][292]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.04:629][293]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.04:629][293]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.04:630][293]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.05:564][326]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.06:312][363]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.41.06:313][363]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.41.06:313][363]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.41.06:313][363]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.13:772][802]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 51B642406A60FA70A8A6DDB34019820CB75FDF4A), compiling. 
+[2022.01.05-17.41.13:776][802]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 6B2979C95B3F3B062A83975FB9F17B1CC1B459B6), compiling. 
+[2022.01.05-17.41.13:781][802]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.41.13:802][803]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.13:802][803]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.41.13:802][803]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.41.13:802][803]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.13:802][803]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.13:803][803]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.41.13:803][803]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.41.13:803][803]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.41.13:803][803]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.41.13:803][803]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.14:707][834]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.15:490][870]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.41.15:490][870]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.41.15:490][870]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.41.15:490][870]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.18:103][ 26]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 1B54C2B9C7649FB57090ADCA558484BC4799F068), compiling. 
+[2022.01.05-17.41.18:106][ 26]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: E1C3FFA5A61146C3571B1AE64972FA3CACD8B60D), compiling. 
+[2022.01.05-17.41.18:108][ 26]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.41.18:117][ 27]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.18:128][ 28]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.19:046][ 61]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.19:670][ 90]LogMaterialEditor: Saving and Compiling material Gold
+[2022.01.05-17.41.20:147][ 90]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: C895FE614250000662896FA86C3F4834DD9A81A9), compiling. 
+[2022.01.05-17.41.20:177][ 90]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 2EC9EAC8AD5A2B66330ADBD9345F2D178EB09B79), compiling. 
+[2022.01.05-17.41.20:216][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.01.05-17.41.20:230][ 90]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.20:454][ 90]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.01.05-17.41.20:454][ 90]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.20:454][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.01.05-17.41.20:502][ 90]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.20:518][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gold" FILE="../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset" SILENT=true
+[2022.01.05-17.41.20:525][ 90]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/Gold38F00ADC46D77DF79BA3EC83ED9E0666.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset'
+[2022.01.05-17.41.20:539][ 90]AssetCheck: New page: Asset Save: Gold
+[2022.01.05-17.41.20:539][ 90]LogContentValidation: Display: Validating Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.41.21:329][124]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.05-17.41.21:346][125]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.41.21:346][125]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.41.21:346][125]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.41.21:346][125]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.05-17.41.32:936][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.01.05-17.41.32:962][795]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/FirstPersonExampleMapF3BCE85B49FDCAD09855BDB5FE516D7B.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.01.05-17.41.32:983][795]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2022.01.05-17.41.32:983][795]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.05-17.41.45:193][484]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 7F81BFF0290864041A516FC6776FB70EFCDFE782), compiling. 
+[2022.01.05-17.41.45:196][484]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 934C304C21388C0B912FCF55E838921EE9329FC1), compiling. 
+[2022.01.05-17.41.45:198][484]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0BF4F64E2498FD424553A18116CD2021092D68EB), compiling. 
+[2022.01.05-17.41.45:200][484]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 9FC0FF5E114CEC9BDCF96EEECF3552616D4F14E3), compiling. 
+[2022.01.05-17.41.45:201][484]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.05-17.41.45:209][484]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.41.45:224][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.45:224][485]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.41.45:224][485]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.41.45:224][485]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.45:247][486]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.45:272][487]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.01.05-17.41.45:272][487]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.01.05-17.41.45:272][487]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.45:888][508]LogMaterialEditor: Saving and Compiling material Gold
+[2022.01.05-17.41.46:413][508]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 575F43F39F4F8937177C39B97512B8EECE3242F3), compiling. 
+[2022.01.05-17.41.46:455][508]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: EED742F1CE7A0AB5E5D78067CBE62086AF4802C7), compiling. 
+[2022.01.05-17.41.46:572][508]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.46:572][508]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.01.05-17.41.46:572][508]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.01.05-17.41.46:573][508]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.01.05-17.41.46:573][508]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.01.05-17.41.46:573][508]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.46:573][508]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2022.01.05-17.41.47:329][508]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.01.05-17.41.47:329][508]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.47:329][508]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.01.05-17.41.47:329][508]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.47:329][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.01.05-17.41.47:592][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gold" FILE="../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset" SILENT=true
+[2022.01.05-17.41.47:599][508]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/GoldA26066964ADA55DA18E9BDBB4E4FA624.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset'
+[2022.01.05-17.41.47:611][508]AssetCheck: New page: Asset Save: Gold
+[2022.01.05-17.41.47:611][508]LogContentValidation: Display: Validating Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.41.47:622][508]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.41.47:622][508]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.41.47:622][508]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.41.47:622][508]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.05-17.41.54:418][910]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: AD65A588A034EAEE244514F5B34B0A27E48E8480), compiling. 
+[2022.01.05-17.41.54:420][910]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AE74C00E4A871870F2E70711D5FB338B90696E81), compiling. 
+[2022.01.05-17.41.54:422][910]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 83091707835F33E04640CD75F30929734FBEB1DD), compiling. 
+[2022.01.05-17.41.54:425][910]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 4516C8C8A88B28BB55F09A3D71540ED5CAA8AD82), compiling. 
+[2022.01.05-17.41.54:426][910]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.05-17.41.54:435][910]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.41.54:453][911]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.54:454][911]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.41.54:454][911]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.41.54:454][911]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.54:475][912]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.54:498][913]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.01.05-17.41.54:498][913]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.01.05-17.41.54:498][913]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.41.55:540][946]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.05-17.41.56:126][971]LogMaterialEditor: Saving and Compiling material Gold
+[2022.01.05-17.41.56:486][971]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: C1F4FD149753289E9BCAFAA687E5B0B5125B49DE), compiling. 
+[2022.01.05-17.41.56:508][971]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 14A4183A3D6A78768AED5553B98522329A07BA6A), compiling. 
+[2022.01.05-17.41.56:529][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.01.05-17.41.56:877][971]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.41.56:877][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.01.05-17.41.57:226][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gold" FILE="../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset" SILENT=true
+[2022.01.05-17.41.57:231][971]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/Gold5C63CB6B4978F475AA6BB1AEAC0B5D66.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset'
+[2022.01.05-17.41.57:243][971]AssetCheck: New page: Asset Save: Gold
+[2022.01.05-17.41.57:244][971]LogContentValidation: Display: Validating Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.41.57:245][971]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.41.57:245][971]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.41.57:245][971]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.41.57:245][971]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.05-17.42.03:009][311]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 68F7DED3D53928F80EA89E82BDB60119EACDD842), compiling. 
+[2022.01.05-17.42.03:012][311]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C33B151350088EB1BD5C7C9518CAE326BFA86E3B), compiling. 
+[2022.01.05-17.42.03:013][311]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0A3CB2801538D58D89AF5E2AC31EC8B4B8369A10), compiling. 
+[2022.01.05-17.42.03:015][311]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 476AB2B53DBC88FC6C9F79D4AE6C479EF73123D7), compiling. 
+[2022.01.05-17.42.03:017][311]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.05-17.42.03:026][311]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.05-17.42.03:044][312]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.42.03:044][312]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.05-17.42.03:044][312]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.01.05-17.42.03:044][312]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.42.03:044][312]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.05-17.42.03:062][313]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.01.05-17.42.03:062][313]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.05-17.42.03:062][313]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.01.05-17.42.03:062][313]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.42.03:062][313]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.42.03:062][313]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.42.03:083][314]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.01.05-17.42.03:083][314]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.01.05-17.42.03:083][314]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.05-17.42.04:101][346]LogMaterialEditor: Saving and Compiling material Gold
+[2022.01.05-17.42.04:581][346]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 9802F7CAE2CBCA3F0C3A3F9DCF57D701FD0CD1A0), compiling. 
+[2022.01.05-17.42.04:615][346]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: AA1F008E265AE5BE4A9230A2DF1219B6461635E1), compiling. 
+[2022.01.05-17.42.04:644][346]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Normal' priority
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2022.01.05-17.42.05:098][346]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.05-17.42.05:098][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.01.05-17.42.05:367][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gold" FILE="../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset" SILENT=true
+[2022.01.05-17.42.05:372][346]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/GoldC1BCAAAD4C733C533A36C0BE54CBB84C.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset'
+[2022.01.05-17.42.05:383][346]AssetCheck: New page: Asset Save: Gold
+[2022.01.05-17.42.05:384][346]LogContentValidation: Display: Validating Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.42.05:385][346]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.05-17.42.05:385][346]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.05-17.42.05:385][346]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.05-17.42.05:385][346]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.05-17.42.06:897][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gold" FILE="../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset" SILENT=true
+[2022.01.05-17.42.06:900][436]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/Gold9032FFDA4744C18196DCB3A33FABBD1B.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/Blueprints/Gold.uasset'
+[2022.01.05-17.42.06:912][436]AssetCheck: New page: Asset Save: Gold
+[2022.01.05-17.42.06:912][436]LogContentValidation: Display: Validating Material /Game/Blueprints/Gold.Gold
+[2022.01.05-17.42.17:207][ 52]LogSlate: Window 'Gold' being destroyed
+[2022.01.05-17.42.17:212][ 52]LogSlate: Window 'Gold' being destroyed
+[2022.01.05-17.42.17:221][ 52]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.01.05-17.42.17:221][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.05-17.42.18:502][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.01.05-17.42.18:529][126]LogSavePackage: Moving '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Saved/FirstPersonExampleMap47D461424892F296F5077D998A2DEC2B.tmp' to '../../../../../../Users/Nathan/Documents/GitHub/UnrealChall2/UnrealChallenge/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.01.05-17.42.18:547][126]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2022.01.05-17.42.18:547][126]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
