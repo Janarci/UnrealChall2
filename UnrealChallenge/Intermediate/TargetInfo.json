@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealChallenge",
+			"Path": "C:\\Users\\Nathan\\Documents\\GitHub\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallenge.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealChallengeEditor",
+			"Path": "C:\\Users\\Nathan\\Documents\\GitHub\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallengeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
