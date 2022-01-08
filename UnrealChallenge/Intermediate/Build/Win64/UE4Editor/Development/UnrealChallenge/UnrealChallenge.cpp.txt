@@ -1,0 +1,2 @@
+C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\Definitions.UnrealChallenge.h
+C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Source\UnrealChallenge\UnrealChallenge.h

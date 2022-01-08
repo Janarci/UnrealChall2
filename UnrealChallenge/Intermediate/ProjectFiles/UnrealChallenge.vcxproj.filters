@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealChallenge.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{99C614DC-827B-478F-A00C-D3A866D2A5C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealChallenge.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealChallengeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D3AB5A26-4806-4777-A022-9E58638E62C5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealChallenge">
+      <UniqueIdentifier>{BF88688C-6F62-461B-85F1-73A3B4DEF4EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealChallenge\Destructable.cpp">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealChallenge\Destructable.h">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealChallenge\PowerUp.cpp">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealChallenge\PowerUp.h">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealChallenge\PowerUpSpawnComponent.cpp">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealChallenge\PowerUpSpawnComponent.h">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\UnrealChallenge\UnrealChallenge.Build.cs">
+      <Filter>Source\UnrealChallenge</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealChallenge\UnrealChallenge.cpp">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealChallenge\UnrealChallenge.h">
+      <Filter>Source\UnrealChallenge</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

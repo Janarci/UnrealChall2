@@ -1,0 +1,8 @@
+C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\Definitions.UnrealChallenge.h
+C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Source\UnrealChallenge\PowerUp.h
+C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Inc\UnrealChallenge\PowerUp.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

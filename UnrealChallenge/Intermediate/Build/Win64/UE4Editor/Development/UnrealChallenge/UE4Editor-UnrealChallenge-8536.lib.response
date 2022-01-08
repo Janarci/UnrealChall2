@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealChallenge-8536.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UnrealChallengeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\PowerUp.cpp.obj"
+"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\UnrealChallenge.cpp.obj"
+"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\PowerUp.gen.cpp.obj"
+"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\UnrealChallenge.init.gen.cpp.obj"
+"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\Default.rc2.res"
+/OUT:"C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\UE4Editor-UnrealChallenge-8536.lib"
