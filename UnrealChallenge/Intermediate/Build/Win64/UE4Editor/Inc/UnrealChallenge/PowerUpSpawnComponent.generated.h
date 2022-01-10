@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef UNREALCHALLENGE_PowerUpSpawnComponent_generated_h
 #error "PowerUpSpawnComponent.generated.h already included, missing '#pragma once' in PowerUpSpawnComponent.h"
 #endif
@@ -16,11 +17,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_14_SPARSE_DATA
 #define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetActorToSpawn); \
 	DECLARE_FUNCTION(execSpawnRandom);
 
 
 #define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetActorToSpawn); \
 	DECLARE_FUNCTION(execSpawnRandom);
 
 
@@ -66,10 +69,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPowerUpSpawnComponent)
 
 
-#define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ActorToSpawn() { return STRUCT_OFFSET(UPowerUpSpawnComponent, ActorToSpawn); }
-
-
+#define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_14_PRIVATE_PROPERTY_OFFSET
 #define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_11_PROLOG
 #define UnrealChallenge_Source_UnrealChallenge_PowerUpSpawnComponent_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

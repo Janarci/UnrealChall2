@@ -10,7 +10,7 @@ UPowerUpSpawnComponent::UPowerUpSpawnComponent()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
+	
 	// ...
 }
 
@@ -19,20 +19,35 @@ UPowerUpSpawnComponent::UPowerUpSpawnComponent()
 void UPowerUpSpawnComponent::BeginPlay()
 {
 	Super::BeginPlay();
+	hasSpawned = false;
 	
 }
 
+int UPowerUpSpawnComponent::SpawnRandom() {
+	FActorSpawnParameters SpawnParams;
 
-int UPowerUpSpawnComponent::SpawnRandom(int startIndex, int actorToSpawnIndex) {
-	int randomIndex = FMath::RandRange(startIndex, actorToSpawnIndex);
-	if (actorToSpawnIndex > actorToSpawnIndex) {
+	int randomIndex = FMath::RandRange(0, ActorToSpawn.Num() + 1);
+	if (randomIndex < ActorToSpawn.Num() && !hasSpawned) {
 		const FVector Location = GetOwner()->GetActorLocation();;
 		const FRotator Rotation = GetOwner()->GetActorRotation();
-		GetWorld()->SpawnActor<AActor>(ActorToSpawn[randomIndex], Location, Rotation);
+		GetWorld()->SpawnActor<AActor>(ActorToSpawn[randomIndex], Location, Rotation, SpawnParams);
 		UE_LOG(LogTemp, Warning, TEXT("Spawning"));
+		hasSpawned = true;
+	}
+	else {
+		hasSpawned = true;
 	}
 
 	return randomIndex;
 }
+
+TSubclassOf<AActor> UPowerUpSpawnComponent::GetActorToSpawn()
+{
+	int randomIndex = FMath::RandRange(0, ActorToSpawn.Num());
+	class TSubclassOf<AActor> actorToSpawn = ActorToSpawn[randomIndex];
+	return actorToSpawn;
+}
+
+
 
 

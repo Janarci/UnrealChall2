@@ -17,11 +17,13 @@ struct FVector;
 #define UnrealChallenge_Source_UnrealChallenge_Destructable_h_15_SPARSE_DATA
 #define UnrealChallenge_Source_UnrealChallenge_Destructable_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execMyDestroy); \
 	DECLARE_FUNCTION(execOnComponentFracture);
 
 
 #define UnrealChallenge_Source_UnrealChallenge_Destructable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execMyDestroy); \
 	DECLARE_FUNCTION(execOnComponentFracture);
 
 
@@ -68,6 +70,9 @@ public: \
 
 
 #define UnrealChallenge_Source_UnrealChallenge_Destructable_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MyRootComponent() { return STRUCT_OFFSET(ADestructable, MyRootComponent); } \
+	FORCEINLINE static uint32 __PPO__DestructibleComponent() { return STRUCT_OFFSET(ADestructable, DestructibleComponent); } \
+	FORCEINLINE static uint32 __PPO__DebrisLifeTime() { return STRUCT_OFFSET(ADestructable, DebrisLifeTime); } \
 	FORCEINLINE static uint32 __PPO__ActorToSpawn() { return STRUCT_OFFSET(ADestructable, ActorToSpawn); } \
 	FORCEINLINE static uint32 __PPO__actorToSpawnIndex() { return STRUCT_OFFSET(ADestructable, actorToSpawnIndex); }
 

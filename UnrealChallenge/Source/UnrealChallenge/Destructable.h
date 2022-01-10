@@ -18,15 +18,34 @@ public:
 	// Sets default values for this actor's properties
 	ADestructable();
 
-	UFUNCTION() void OnComponentFracture(const FVector& HitPoint, const FVector& HitDirection);
+	UFUNCTION() 
+		void OnComponentFracture(const FVector& HitPoint, const FVector& HitDirection);
 	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Custom", meta = (AllowPrivateAccess = true))
+		USceneComponent* MyRootComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Custom", meta = (AllowPrivateAccess = true))
+		class UDestructibleComponent* DestructibleComponent;
+
+	UPROPERTY(EditAnywhere, Category = "Custom", meta = (AllowPrivateAccess = true))
+		uint32 bFractured : 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom", meta = (AllowPrivateAccess = true))
+		float DebrisLifeTime = 1.5f;
+
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
 	TArray<TSubclassOf<AActor>> ActorToSpawn;
 
 	UPROPERTY(VisibleAnywhere) int actorToSpawnIndex;
+
+private:
+	UFUNCTION()
+		void MyDestroy();
+
+
 };

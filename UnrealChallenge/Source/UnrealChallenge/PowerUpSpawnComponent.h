@@ -23,10 +23,12 @@ protected:
 
 public:	
 	// Called every frame
-	UFUNCTION(BlueprintCallable) int SpawnRandom(int startIndex, int actorToSpawnIndex);
-
-private:
-	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
+	UFUNCTION(BlueprintCallable) int SpawnRandom();
+public:
+	UPROPERTY(BlueprintReadWrite) bool hasSpawned;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 		TArray<TSubclassOf<AActor>> ActorToSpawn;
+
+	UFUNCTION(BlueprintCallable) TSubclassOf<AActor> GetActorToSpawn();
 		
 };

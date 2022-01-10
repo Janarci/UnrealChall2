@@ -9,6 +9,11 @@ ADestructable::ADestructable()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	MyRootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("MyRootComponent"));
+	RootComponent = MyRootComponent;
+
+	DestructibleComponent = CreateDefaultSubobject<UDestructibleComponent>(TEXT("DestructibleComponent"));
+	DestructibleComponent->OnComponentFracture.AddUniqueDynamic(this, &ADestructable::OnComponentFracture);
 }
 
 void ADestructable::OnComponentFracture(const FVector& HitPoint, const FVector& HitDirection)
@@ -27,5 +32,9 @@ void ADestructable::BeginPlay()
 	srand(time(NULL));
 
 	actorToSpawnIndex = rand() % ActorToSpawn.Num();
+}
+
+void ADestructable::MyDestroy()
+{
 }
 
