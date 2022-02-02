@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Nathan\\Documents\\GitHub\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallenge\\UnrealChallenge.Build.cs",
-		"C:\\Users\\Nathan\\Documents\\GitHub\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallenge.Target.cs",
-		"C:\\Users\\Nathan\\Documents\\GitHub\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallengeEditor.Target.cs"
+		"D:\\Unreal Engine\\Projects\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallenge\\UnrealChallenge.Build.cs",
+		"D:\\Unreal Engine\\Projects\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallenge.Target.cs",
+		"D:\\Unreal Engine\\Projects\\UnrealChall2\\UnrealChallenge\\Source\\UnrealChallengeEditor.Target.cs"
 	],
-	"EngineVersion": "4.27.1"
+	"EngineVersion": "4.27.2"
 }

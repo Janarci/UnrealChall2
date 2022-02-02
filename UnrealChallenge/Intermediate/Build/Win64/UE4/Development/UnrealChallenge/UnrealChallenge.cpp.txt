@@ -1,0 +1,2 @@
+D:\Unreal Engine\Projects\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4\Development\UnrealChallenge\Definitions.UnrealChallenge.h
+D:\Unreal Engine\Projects\UnrealChall2\UnrealChallenge\Source\UnrealChallenge\UnrealChallenge.h

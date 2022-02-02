@@ -1,8 +1,8 @@
-C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\Definitions.UnrealChallenge.h
-C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Source\UnrealChallenge\PowerUp.h
-C:\Users\Nathan\Documents\GitHub\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Inc\UnrealChallenge\PowerUp.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+D:\Unreal Engine\Projects\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Development\UnrealChallenge\Definitions.UnrealChallenge.h
+D:\Unreal Engine\Projects\UnrealChall2\UnrealChallenge\Source\UnrealChallenge\PowerUp.h
+D:\Unreal Engine\Projects\UnrealChall2\UnrealChallenge\Intermediate\Build\Win64\UE4Editor\Inc\UnrealChallenge\PowerUp.generated.h
+D:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+D:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

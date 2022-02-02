@@ -26,7 +26,7 @@ void UPowerUpSpawnComponent::BeginPlay()
 int UPowerUpSpawnComponent::SpawnRandom() {
 	FActorSpawnParameters SpawnParams;
 
-	int randomIndex = FMath::RandRange(0, ActorToSpawn.Num() + 1);
+	int randomIndex = FMath::RandRange(0, ActorToSpawn.Num());
 	if (randomIndex < ActorToSpawn.Num() && !hasSpawned) {
 		const FVector Location = GetOwner()->GetActorLocation();;
 		const FRotator Rotation = GetOwner()->GetActorRotation();
